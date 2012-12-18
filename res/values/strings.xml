@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ohpass</string>
+    <string name="masterpwd">Master Password</string>
+    <string name="accessbutton">Access</string>
+    <string name="loginnote">You may leave the master password blank, but your passwords will be less secure and they will not be encrypted</string>
+    <string name="wrongpwd">The password entered is incorrect</string>
+    <string name="password">Password:</string>
+    <string name="comments">Comments:</string>
+    <string name="url">Url:</string>
+    <string name="confirmpwd">Confirm Password</string>
+    <string name="ok">Ok</string>
+    <string name="copybutton">Copy to Clipboard</string>
+    <string name="gotourl">Go to URL</string>
+    <string name="editbutton">Edit</string>
+    <string name="editentry">Edit Entry</string>
+    <string name="deleteentry">Delete Entry</string>
+    <string name="entryname">Name:</string>
+    <string name="add">Add Entry</string>
+    <string name="featonlyfull">Feature only available in full version</string>
+    <string name="badurl">The URL could not be parsed correctly</string>
+    <string name="typepath">Type File Path</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="notsaved">File not saved</string>
+    <string name="open">Open</string>
+    <string name="choose">Choose</string>
+    <string name="notopen">File not imported</string>
+    <string name="notpick">Open Intents File Manager not installed on this device</string>
+</resources>

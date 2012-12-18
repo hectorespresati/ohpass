@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/masterpwd" android:layout_marginTop="10sp"></TextView>
+    <TextView android:text="@string/wrongpwd" android:textColor="#ff0000" android:layout_width="wrap_content" android:id="@+id/nomatchlabel" android:layout_height="wrap_content" android:visibility="gone"></TextView>
+    <EditText android:id="@+id/pwd1" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:layout_marginTop="10sp" android:imeOptions="actionNext" android:singleLine="true">
+        <requestFocus></requestFocus>
+    </EditText>
+    
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content" android:text="@string/confirmpwd" android:layout_marginTop="10sp"></TextView>
+    <EditText android:id="@+id/pwd2" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:layout_marginTop="10sp" android:imeOptions="actionGo" android:singleLine="true"></EditText>
+    
+    <Button android:id="@+id/button1" android:layout_height="wrap_content" android:text="@string/accessbutton" android:layout_marginTop="10sp" android:layout_width="match_parent"></Button>
+    <TextView android:text="@string/loginnote" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_marginTop="40sp"></TextView>
+</LinearLayout>

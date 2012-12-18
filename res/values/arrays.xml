@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="menu_options">
+    	<item>See Stored Passwords</item>
+    	<item>Generate Random Password</item>
+    	<item>Export Stored Passwords</item>
+    	<item>Import Passwords from File</item>
+    </string-array>
+</resources>

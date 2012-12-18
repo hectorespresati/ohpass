@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/entryname" android:layout_marginTop="10sp"></TextView>
+    <EditText android:id="@+id/editText1" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext" android:singleLine="true" android:inputType="text">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/password" android:layout_marginTop="10sp"></TextView>
+    <EditText android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:imeOptions="actionNext" android:singleLine="true"></EditText>
+    <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/comments" android:layout_marginTop="10sp"></TextView>
+    <EditText android:id="@+id/editText3" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext" android:singleLine="true" android:inputType="text"></EditText>
+    <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/url" android:layout_marginTop="10sp"></TextView>
+    <EditText android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" android:singleLine="true" android:inputType="textUri"></EditText>
+    <Button android:layout_marginTop="30sp" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/add"></Button>
+    
+</LinearLayout>
+    </ScrollView>
